@@ -1,0 +1,3 @@
+experiment_id,question,purpose,baseline_or_main,entry_script,seed,parameters,primary_metric,acceptance_rule,status,manifest_path
+E01,Q1,,baseline,code/main.py,42,,,,planned,
+E02,Q1,,main,code/main.py,42,,,,planned,

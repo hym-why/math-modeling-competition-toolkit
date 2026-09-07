@@ -1,0 +1,50 @@
+[
+  {
+    "file": "2026042800010A.pdf",
+    "pages": 70,
+    "text_chars": 126336,
+    "sha256": "efb32f853e2d3710b7fb98f59954ae156d4ce7b1ef099ce0abcd75ebc1902c17"
+  },
+  {
+    "file": "2026042800370A.pdf",
+    "pages": 90,
+    "text_chars": 181677,
+    "sha256": "a07b4c14ecd782dfa0ba6670d2d4adc7209f87759ac77332f59655da1cb6e970"
+  },
+  {
+    "file": "2026042800422A.pdf",
+    "pages": 99,
+    "text_chars": 181640,
+    "sha256": "02a707a2792e660c945102602c980f57f3f3b25dc500e5e4932f6fb36ceffc62"
+  },
+  {
+    "file": "2026042801025A.pdf",
+    "pages": 62,
+    "text_chars": 106935,
+    "sha256": "9d6e9978a087342fa64a7c41c19f74770e4e080e49a7b98531e1c27f97973ebf"
+  },
+  {
+    "file": "2026042801181A.pdf",
+    "pages": 61,
+    "text_chars": 89019,
+    "sha256": "1df77d1a6e0d5eec863bfa0594100b21cce8814f1c50570ee92765d9c9fe8b75"
+  },
+  {
+    "file": "2026042802167A.pdf",
+    "pages": 183,
+    "text_chars": 288649,
+    "sha256": "97308dcf51da478085a06ef3d97945e4cc6bc59de0164c25f531c6e89e284028"
+  },
+  {
+    "file": "2026042802516A.pdf",
+    "pages": 42,
+    "text_chars": 35715,
+    "sha256": "6f636a22f76ccc6bb0fe0ba1aac1d4b1fb13156e3a058856c3b40e653328fdf3"
+  },
+  {
+    "file": "2026042802754A.pdf",
+    "pages": 44,
+    "text_chars": 31042,
+    "sha256": "f792b7ef6301a7ee366499b6d310be28a8418b86fe602a3b44efa1bd2efc61bd"
+  }
+]

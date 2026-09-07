@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "D:\文档\ChatGPT\数学建模\code\green_logistics_trial.py", line 1172, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\文档\ChatGPT\数学建模\code\green_logistics_trial.py", line 1164, in main
+    plot_routes("q1_candidate", routes_by_name["q1_candidate"], data, green_geometry, args.output_dir)
+  File "D:\文档\ChatGPT\数学建模\code\green_logistics_trial.py", line 950, in plot_routes
+    figure, axis = plt.subplots(figsize=(9, 8), constrained_layout=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文档\ChatGPT\数学建模\.venv\Lib\site-packages\matplotlib\pyplot.py", line 1886, in subplots
+    fig = figure(**fig_kw)
+          ^^^^^^^^^^^^^^^^
+  File "D:\文档\ChatGPT\数学建模\.venv\Lib\site-packages\matplotlib\pyplot.py", line 1096, in figure
+    manager = new_figure_manager(
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\文档\ChatGPT\数学建模\.venv\Lib\site-packages\matplotlib\pyplot.py", line 576, in new_figure_manager
+    return _get_backend_mod().new_figure_manager(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文档\ChatGPT\数学建模\.venv\Lib\site-packages\matplotlib\backend_bases.py", line 3664, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文档\ChatGPT\数学建模\.venv\Lib\site-packages\matplotlib\backend_bases.py", line 3669, in new_figure_manager_given_figure
+    return cls.FigureCanvas.new_manager(figure, num)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文档\ChatGPT\数学建模\.venv\Lib\site-packages\matplotlib\backend_bases.py", line 1836, in new_manager
+    return cls.manager_class.create_with_canvas(cls, figure, num)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文档\ChatGPT\数学建模\.venv\Lib\site-packages\matplotlib\backends\_backend_tk.py", line 546, in create_with_canvas
+    window = tk.Tk(className="matplotlib")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HUAWEI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tkinter\__init__.py", line 2346, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    {C:\Users\HUAWEI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\tcl\tcl8.6}
+
+
+
+This probably means that Tcl wasn't installed properly.
+

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+submission/*.pdf
+submission/*.doc
+submission/*.docx
+submission/*.zip
+submission/*.rar
+state/frozen_results.json
+state/data_contract.json
+state/environment_report.json
+state/audit_report.json
+benchmarks/raw/
+benchmarks/runs/
+tmp/
+matplotlib/

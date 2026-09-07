@@ -1,0 +1,5 @@
+q1_baseline: cost=113971.57, routes=160, emissions=13286.34
+q1_candidate: cost=113019.11, routes=161, emissions=12971.85
+q2_baseline: cost=115999.12, routes=165, emissions=13458.79
+q2_candidate: cost=115066.06, routes=163, emissions=13188.06
+q2_30_nearest_sensitivity: cost=111574.33, routes=161, emissions=12671.53

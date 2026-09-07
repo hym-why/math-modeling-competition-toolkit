@@ -1,0 +1,6 @@
+q1_baseline: cost=113971.57, routes=160, emissions=13286.34
+q1_candidate: cost=108584.14, routes=158, emissions=11807.26
+q2_baseline: cost=115999.12, routes=165, emissions=13458.79
+q2_candidate: cost=109643.58, routes=161, emissions=11830.28
+q2_30_nearest_sensitivity: cost=111909.48, routes=160, emissions=11924.46
+Saved trial outputs to D:\文档\ChatGPT\数学建模\outputs\green_logistics_trial

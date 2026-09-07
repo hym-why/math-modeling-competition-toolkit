@@ -1,0 +1,282 @@
+{
+  "imputation": {
+    "complete_row_median_density_kg_per_m3": 384.93723849372384,
+    "current_independent_median_totals": {
+      "weight_kg": 285554.98632,
+      "volume_m3": 774.10897
+    },
+    "density_linked_totals": {
+      "weight_kg": 286192.64146435144,
+      "volume_m3": 781.093595526087
+    },
+    "difference_density_minus_current": {
+      "weight_kg": 637.6551443514181,
+      "volume_m3": 6.984625526087029
+    }
+  },
+  "dynamic_state": {
+    "event_time": "14:00",
+    "new_order_insertions": [
+      {
+        "route_id": 31,
+        "route_departure": "10:45",
+        "departed_before_event": true,
+        "path_after_replan": "0-88-84-96-0"
+      }
+    ],
+    "new_order_loaded_onto_already_departed_route": true,
+    "cancelled_deliveries_on_already_departed_routes": [
+      {
+        "route_id": 31,
+        "route_departure": "10:45",
+        "cancelled_delivery_weight_kg": 1136.0443,
+        "cancelled_delivery_volume_m3": 3.085897857142857
+      }
+    ],
+    "audit_note": "The current full-day recomputation removes cancelled cargo from route load even when that cargo was already aboard at departure."
+  },
+  "solutions": {
+    "q1_candidate": {
+      "corrected_electric_formula": {
+        "reported_total_cost": 108584.14126847712,
+        "corrected_total_cost_on_same_routes": 108586.35954100675,
+        "total_cost_difference": 2.2182725296297576,
+        "reported_emissions_kg": 11807.256377835665,
+        "corrected_emissions_kg": 11807.821765639874,
+        "emissions_difference_kg": 0.5653878042085125
+      },
+      "late_speed_gap": {
+        "comparison_scenario": "17:00-18:00 congested, 18:00-20:00 normal, then smooth",
+        "reported_total_cost": 108584.14126847712,
+        "scenario_total_cost_on_same_routes": 110819.19202463405,
+        "total_cost_difference": 2235.0507561569248,
+        "reported_late_hours": 3.3228728251676634,
+        "scenario_late_hours": 38.578587269829285,
+        "late_hours_difference": 35.25571444466162
+      },
+      "multi_trip": {
+        "turnaround_minutes": 20.0,
+        "trips": 158,
+        "minimum_physical_vehicles_for_saved_timing": 103,
+        "avoidable_start_charges_if_one_charge_per_physical_vehicle": 22000.0,
+        "by_type": {
+          "EV-1250": {
+            "trips": 15,
+            "minimum_physical_vehicles_for_saved_timing": 10
+          },
+          "EV-3000": {
+            "trips": 10,
+            "minimum_physical_vehicles_for_saved_timing": 9
+          },
+          "Fuel-1250": {
+            "trips": 23,
+            "minimum_physical_vehicles_for_saved_timing": 13
+          },
+          "Fuel-1500": {
+            "trips": 50,
+            "minimum_physical_vehicles_for_saved_timing": 33
+          },
+          "Fuel-3000": {
+            "trips": 60,
+            "minimum_physical_vehicles_for_saved_timing": 38
+          }
+        }
+      }
+    },
+    "q2_candidate": {
+      "corrected_electric_formula": {
+        "reported_total_cost": 109643.58497801702,
+        "corrected_total_cost_on_same_routes": 109644.54508892822,
+        "total_cost_difference": 0.9601109111972619,
+        "reported_emissions_kg": 11830.283868266648,
+        "corrected_emissions_kg": 11830.52857895599,
+        "emissions_difference_kg": 0.2447106893414457
+      },
+      "late_speed_gap": {
+        "comparison_scenario": "17:00-18:00 congested, 18:00-20:00 normal, then smooth",
+        "reported_total_cost": 109643.58497801702,
+        "scenario_total_cost_on_same_routes": 112090.52459782005,
+        "total_cost_difference": 2446.93961980303,
+        "reported_late_hours": 7.108969283203434,
+        "scenario_late_hours": 46.007893203102746,
+        "late_hours_difference": 38.89892391989931
+      },
+      "multi_trip": {
+        "turnaround_minutes": 20.0,
+        "trips": 161,
+        "minimum_physical_vehicles_for_saved_timing": 107,
+        "avoidable_start_charges_if_one_charge_per_physical_vehicle": 21600.0,
+        "by_type": {
+          "EV-1250": {
+            "trips": 15,
+            "minimum_physical_vehicles_for_saved_timing": 9
+          },
+          "EV-3000": {
+            "trips": 10,
+            "minimum_physical_vehicles_for_saved_timing": 10
+          },
+          "Fuel-1250": {
+            "trips": 26,
+            "minimum_physical_vehicles_for_saved_timing": 19
+          },
+          "Fuel-1500": {
+            "trips": 50,
+            "minimum_physical_vehicles_for_saved_timing": 30
+          },
+          "Fuel-3000": {
+            "trips": 60,
+            "minimum_physical_vehicles_for_saved_timing": 39
+          }
+        }
+      },
+      "green_arc_policy": {
+        "method": "straight-line chord proxy because road geometries are unavailable",
+        "fuel_arcs_checked": 317,
+        "estimated_restricted_period_crossings": 22,
+        "affected_routes": 16,
+        "examples": [
+          {
+            "route_id": 35,
+            "from": 52,
+            "to": 0,
+            "estimated_inside_start": "15:56",
+            "estimated_inside_end": "16:45"
+          },
+          {
+            "route_id": 36,
+            "from": 0,
+            "to": 52,
+            "estimated_inside_start": "15:04",
+            "estimated_inside_end": "15:51"
+          },
+          {
+            "route_id": 37,
+            "from": 52,
+            "to": 0,
+            "estimated_inside_start": "15:56",
+            "estimated_inside_end": "16:45"
+          },
+          {
+            "route_id": 38,
+            "from": 0,
+            "to": 39,
+            "estimated_inside_start": "13:48",
+            "estimated_inside_end": "14:17"
+          },
+          {
+            "route_id": 39,
+            "from": 39,
+            "to": 0,
+            "estimated_inside_start": "15:29",
+            "estimated_inside_end": "16:09"
+          },
+          {
+            "route_id": 40,
+            "from": 0,
+            "to": 42,
+            "estimated_inside_start": "09:29",
+            "estimated_inside_end": "09:56"
+          },
+          {
+            "route_id": 41,
+            "from": 0,
+            "to": 42,
+            "estimated_inside_start": "10:24",
+            "estimated_inside_end": "11:00"
+          },
+          {
+            "route_id": 41,
+            "from": 42,
+            "to": 25,
+            "estimated_inside_start": "12:24",
+            "estimated_inside_end": "13:39"
+          },
+          {
+            "route_id": 42,
+            "from": 0,
+            "to": 42,
+            "estimated_inside_start": "10:24",
+            "estimated_inside_end": "11:00"
+          },
+          {
+            "route_id": 42,
+            "from": 42,
+            "to": 9,
+            "estimated_inside_start": "12:28",
+            "estimated_inside_end": "13:47"
+          },
+          {
+            "route_id": 43,
+            "from": 0,
+            "to": 70,
+            "estimated_inside_start": "09:56",
+            "estimated_inside_end": "10:49"
+          },
+          {
+            "route_id": 45,
+            "from": 0,
+            "to": 87,
+            "estimated_inside_start": "10:11",
+            "estimated_inside_end": "10:17"
+          },
+          {
+            "route_id": 47,
+            "from": 0,
+            "to": 26,
+            "estimated_inside_start": "15:54",
+            "estimated_inside_end": "16:15"
+          },
+          {
+            "route_id": 52,
+            "from": 0,
+            "to": 85,
+            "estimated_inside_start": "10:55",
+            "estimated_inside_end": "11:07"
+          },
+          {
+            "route_id": 148,
+            "from": 0,
+            "to": 74,
+            "estimated_inside_start": "13:29",
+            "estimated_inside_end": "13:57"
+          },
+          {
+            "route_id": 148,
+            "from": 74,
+            "to": 0,
+            "estimated_inside_start": "14:42",
+            "estimated_inside_end": "15:14"
+          },
+          {
+            "route_id": 149,
+            "from": 0,
+            "to": 74,
+            "estimated_inside_start": "13:29",
+            "estimated_inside_end": "13:57"
+          },
+          {
+            "route_id": 149,
+            "from": 74,
+            "to": 0,
+            "estimated_inside_start": "14:42",
+            "estimated_inside_end": "15:14"
+          },
+          {
+            "route_id": 150,
+            "from": 0,
+            "to": 74,
+            "estimated_inside_start": "13:29",
+            "estimated_inside_end": "13:57"
+          },
+          {
+            "route_id": 150,
+            "from": 74,
+            "to": 0,
+            "estimated_inside_start": "14:42",
+            "estimated_inside_end": "15:14"
+          }
+        ]
+      }
+    }
+  }
+}

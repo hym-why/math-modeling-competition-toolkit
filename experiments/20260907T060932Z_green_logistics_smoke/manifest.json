@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "name": "green_logistics_smoke",
+  "started_at": "2026-09-07T06:09:32.162328+00:00",
+  "elapsed_seconds": 7.126,
+  "command": [
+    "D:\\文档\\ChatGPT\\数学建模\\.venv\\Scripts\\python.exe",
+    "D:\\文档\\ChatGPT\\数学建模\\code\\green_logistics_trial.py",
+    "--starts",
+    "1",
+    "--mc-trials",
+    "3"
+  ],
+  "entry": "code/green_logistics_trial.py",
+  "seed": 2026,
+  "parameters": {},
+  "return_code": 1,
+  "git_revision": null,
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "openpyxl": "3.1.5",
+    "statsmodels": null,
+    "pulp": null,
+    "scikit-criteria": null
+  },
+  "inputs": {
+    "data/green_logistics_A/README.md": {
+      "bytes": 462,
+      "sha256": "53e50c7e998740629970577ceded7f649f9718a804d87706b4da4490adda98b7"
+    },
+    "data/green_logistics_A/客户坐标信息.xlsx": {
+      "bytes": 13875,
+      "sha256": "570d846d2cc85f6d45df21161a1df015cd5320cb22ac2885fc42931dd24d7db7"
+    },
+    "data/green_logistics_A/时间窗.xlsx": {
+      "bytes": 12044,
+      "sha256": "5f20976494bf618847251dec221042c8d984b5844614ad71c2a62546da3f53c9"
+    },
+    "data/green_logistics_A/订单信息.xlsx": {
+      "bytes": 77096,
+      "sha256": "ff6f512fd4b2bd2d13fd9cbaccc98b9354be80c229ac394008dbc7c73cdf8e5d"
+    },
+    "data/green_logistics_A/距离矩阵.xlsx": {
+      "bytes": 141201,
+      "sha256": "198f69aef8f9145a5e548f2a015e08cc7a84d8b761decf3cc663dea6ef579a7e"
+    }
+  },
+  "source_files": {
+    "code/example_pipeline.py": {
+      "bytes": 2246,
+      "sha256": "3a1a5ecfd8abe741949da9778377890d8356825fc67cee574e9d5fa4947e3caa"
+    },
+    "code/green_logistics_trial.py": {
+      "bytes": 50081,
+      "sha256": "877cc09932843c70f4e5fbc875a4343a2d29af48e637aff30247cb658ae9a31c"
+    },
+    "code/main_template.py": {
+      "bytes": 1925,
+      "sha256": "6f9c6c8cb2dad095aa5ee407e292f13af8502e65a5d3ce036c705ad6783442e4"
+    },
+    "code/modeling_toolkit.py": {
+      "bytes": 7450,
+      "sha256": "774457103f717106eb3a27aa0da91b73abbf3dd759687cf4cb40ddcb8d5cb48c"
+    },
+    "code/requirements.txt": {
+      "bytes": 58,
+      "sha256": "2959793478f3392bca8ad33cb442ac0c25f6dc8bdde1b804914ee0fb942aa6f3"
+    },
+    "code/requirements_optional.txt": {
+      "bytes": 107,
+      "sha256": "ded4408b6c9c00d359fe95483cf616a0fe7790187853bac55c5e17a5acad2a9a"
+    }
+  },
+  "outputs": {
+    "outputs/green_logistics_trial/data_audit.json": {
+      "bytes": 615,
+      "sha256": "c2259580254f00a2f62f6047cb9f0afb9222aad9c11f7e9f396e60d199b7e106"
+    },
+    "outputs/green_logistics_trial/q1_baseline_routes.csv": {
+      "bytes": 23205,
+      "sha256": "8337d1fb80c36acfe73ba263d78e9da3738679f6116ffba41373b565b22a2857"
+    },
+    "outputs/green_logistics_trial/q1_baseline_stops.csv": {
+      "bytes": 48117,
+      "sha256": "bc04419296906c9b70ce8b5e497f2ae69bb63cbce48808f980f7a830d6c55af7"
+    },
+    "outputs/green_logistics_trial/q1_baseline_summary.json": {
+      "bytes": 740,
+      "sha256": "944dbf5507cd63579d6543ed7bd38fe8b97c5dc85c08ac7acb271d22a4f0a738"
+    },
+    "outputs/green_logistics_trial/q1_candidate_routes.csv": {
+      "bytes": 23189,
+      "sha256": "89d5ef3e55fddb4f769692ca93990963e7935622dbe6d605ec03d3ff3cd70092"
+    },
+    "outputs/green_logistics_trial/q1_candidate_stops.csv": {
+      "bytes": 47315,
+      "sha256": "92d991511ad4eee5400e4569059a00423bf02c72734a9e65a9332989225ec01c"
+    },
+    "outputs/green_logistics_trial/q1_candidate_summary.json": {
+      "bytes": 735,
+      "sha256": "5ea3d0ba4725d9a4e67767b343d4ab84099c94ef5ec54708be533c2021b82a6e"
+    }
+  },
+  "warnings": []
+}

@@ -1,0 +1,4 @@
+# Install only when the selected problem needs these model families.
+statsmodels
+pulp[cbc]
+scikit-criteria

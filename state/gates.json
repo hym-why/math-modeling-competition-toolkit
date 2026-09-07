@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "updated_at": null,
+  "gates": {
+    "G1": {"name": "题目已拆解", "status": "pending", "note": "", "artifacts": []},
+    "G2": {"name": "方法已用基准/PoC 验证", "status": "pending", "note": "", "artifacts": []},
+    "G3": {"name": "代码已复现并交叉检查", "status": "pending", "note": "", "artifacts": []},
+    "G4": {"name": "结果已冻结", "status": "pending", "note": "", "artifacts": []},
+    "G5": {"name": "论文证据链已闭合", "status": "pending", "note": "", "artifacts": []},
+    "G6": {"name": "终稿与提交材料已审计", "status": "pending", "note": "", "artifacts": []}
+  },
+  "history": []
+}

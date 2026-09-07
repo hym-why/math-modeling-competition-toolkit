@@ -1,0 +1,9 @@
+dimension,weight,score_1_to_5,evidence,blocking_issue,owner,status
+problem_response,15,,,,,open
+model_correctness,20,,,,,open
+result_validity,20,,,,,open
+robustness_and_limits,15,,,,,open
+writing_and_abstract,10,,,,,open
+figures_and_tables,10,,,,,open
+reproducibility,5,,,,,open
+format_integrity_privacy,5,,,,,open

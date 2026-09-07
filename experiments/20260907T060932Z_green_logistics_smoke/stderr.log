@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\文档\ChatGPT\数学建模\code\green_logistics_trial.py", line 1173, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\文档\ChatGPT\数学建模\code\green_logistics_trial.py", line 1121, in main
+    raise RuntimeError(f"Constraint audit failed for {name}: {summaries[name]}")
+RuntimeError: Constraint audit failed for q1_candidate: {'total_cost': 112636.073464547, 'start_cost': 64400.0, 'energy_cost': 38575.23210369163, 'carbon_cost': 8361.919390929987, 'waiting_cost': 807.6586691407192, 'lateness_cost': 491.26330078467015, 'distance_km': 18801.821140181673, 'emissions_kg': 12864.49137066152, 'wait_hours': 40.38293345703595, 'late_hours': 9.825266015693405, 'routes': 161, 'fleet': {'EV-1250': 16, 'EV-3000': 11, 'Fuel-1250': 22, 'Fuel-1500': 51, 'Fuel-3000': 61}, 'capacity_violations': 0, 'fleet_limit_violations': 4, 'policy_violations': 0, 'max_customer_weight_error_kg': 3.637978807091713e-12, 'max_customer_volume_error_m3': 7.105427357601002e-15, 'feasible': False}

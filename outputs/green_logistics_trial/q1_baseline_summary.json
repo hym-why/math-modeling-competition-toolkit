@@ -1,0 +1,26 @@
+{
+  "total_cost": 113971.56860910942,
+  "start_cost": 64000.0,
+  "energy_cost": 39852.054381184294,
+  "carbon_cost": 8636.12318549878,
+  "waiting_cost": 211.34192215402064,
+  "lateness_cost": 1272.0491202723706,
+  "distance_km": 19618.830869580244,
+  "emissions_kg": 13286.343362305806,
+  "wait_hours": 10.567096107701031,
+  "late_hours": 25.440982405447418,
+  "routes": 160,
+  "fleet": {
+    "EV-1250": 15,
+    "EV-3000": 10,
+    "Fuel-1250": 25,
+    "Fuel-1500": 50,
+    "Fuel-3000": 60
+  },
+  "capacity_violations": 0,
+  "fleet_limit_violations": 0,
+  "policy_violations": 0,
+  "max_customer_weight_error_kg": 3.637978807091713e-12,
+  "max_customer_volume_error_m3": 7.105427357601002e-15,
+  "feasible": true
+}

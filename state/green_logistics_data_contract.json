@@ -1,0 +1,1618 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-07T06:09:23.360351+00:00",
+  "files": [
+    {
+      "path": "data/green_logistics_A/订单信息.xlsx",
+      "bytes": 77096,
+      "sha256": "ff6f512fd4b2bd2d13fd9cbaccc98b9354be80c229ac394008dbc7c73cdf8e5d",
+      "tables": [
+        {
+          "name": "Sheet1",
+          "rows": 2169,
+          "columns_count": 4,
+          "duplicate_rows": 0,
+          "columns": [
+            {
+              "name": "订单编号",
+              "dtype": "int64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 2169,
+              "numeric": {
+                "min": 1,
+                "max": 2169,
+                "mean": 1085.0,
+                "median": 1085.0,
+                "std": 626.2806878708619
+              }
+            },
+            {
+              "name": "重量",
+              "dtype": "float64",
+              "missing_count": 14,
+              "missing_pct": 0.645,
+              "unique_count": 1853,
+              "numeric": {
+                "min": 1.355,
+                "max": 5987.0501,
+                "mean": 132.30749272389792,
+                "median": 31.086,
+                "std": 330.2443419501863
+              }
+            },
+            {
+              "name": "体积",
+              "dtype": "float64",
+              "missing_count": 16,
+              "missing_pct": 0.738,
+              "unique_count": 1906,
+              "numeric": {
+                "min": 0.00841,
+                "max": 13.79751,
+                "mean": 0.35876962378077104,
+                "median": 0.10003,
+                "std": 0.7983119750872185
+              }
+            },
+            {
+              "name": "目标客户编号",
+              "dtype": "int64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 88,
+              "numeric": {
+                "min": 2,
+                "max": 98,
+                "mean": 50.63715998155832,
+                "median": 55.0,
+                "std": 21.097706334926116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/green_logistics_A/距离矩阵.xlsx",
+      "bytes": 141201,
+      "sha256": "198f69aef8f9145a5e548f2a015e08cc7a84d8b761decf3cc663dea6ef579a7e",
+      "tables": [
+        {
+          "name": "Sheet1",
+          "rows": 99,
+          "columns_count": 100,
+          "duplicate_rows": 0,
+          "columns": [
+            {
+              "name": "客户",
+              "dtype": "int64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0,
+                "max": 98,
+                "mean": 49.0,
+                "median": 49.0,
+                "std": 28.722813232690143
+              }
+            },
+            {
+              "name": "0",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 125.257286246269,
+                "mean": 57.45082806836448,
+                "median": 56.0103666850807,
+                "std": 25.064247330634913
+              }
+            },
+            {
+              "name": "1",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 82.4098402557028,
+                "mean": 36.316667183586866,
+                "median": 35.9329172736943,
+                "std": 17.883973141447324
+              }
+            },
+            {
+              "name": "2",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 81.7162956249354,
+                "mean": 33.89373771161891,
+                "median": 33.6881073395926,
+                "std": 17.577798561962577
+              }
+            },
+            {
+              "name": "3",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 74.4085182402316,
+                "mean": 35.14710046246675,
+                "median": 33.1228705405801,
+                "std": 17.691542219958205
+              }
+            },
+            {
+              "name": "4",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 85.6251264466224,
+                "mean": 35.584052791906814,
+                "median": 35.7884599134638,
+                "std": 17.109815721112035
+              }
+            },
+            {
+              "name": "5",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 76.8605927317748,
+                "mean": 35.20055409789185,
+                "median": 34.6831420859615,
+                "std": 16.780355309122445
+              }
+            },
+            {
+              "name": "6",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 76.5549803119487,
+                "mean": 33.33012555534884,
+                "median": 30.9971288715661,
+                "std": 16.954251643843286
+              }
+            },
+            {
+              "name": "7",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 82.8090633646195,
+                "mean": 36.74434153124166,
+                "median": 36.1557842878897,
+                "std": 17.923766783635166
+              }
+            },
+            {
+              "name": "8",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 81.2001561134758,
+                "mean": 35.55923165162943,
+                "median": 35.4877490019344,
+                "std": 17.95858555958288
+              }
+            },
+            {
+              "name": "9",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 81.6919604396663,
+                "mean": 37.885902589942695,
+                "median": 36.2605133688981,
+                "std": 18.182960751165098
+              }
+            },
+            {
+              "name": "10",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 83.3829949601007,
+                "mean": 33.52768738429868,
+                "median": 33.9105339407241,
+                "std": 15.962940030863614
+              }
+            },
+            {
+              "name": "11",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 74.2935615208278,
+                "mean": 33.43781749879392,
+                "median": 34.5201993766397,
+                "std": 17.251859595293908
+              }
+            },
+            {
+              "name": "12",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 70.8743583251909,
+                "mean": 33.261805297965175,
+                "median": 33.7651408190756,
+                "std": 15.790344462374476
+              }
+            },
+            {
+              "name": "13",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 83.4133836523559,
+                "mean": 36.566549473077764,
+                "median": 37.3267848557497,
+                "std": 16.69709444621206
+              }
+            },
+            {
+              "name": "14",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 75.9297052018817,
+                "mean": 34.59877872349346,
+                "median": 34.3526810778887,
+                "std": 18.00594921876422
+              }
+            },
+            {
+              "name": "15",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 67.1555392873951,
+                "mean": 33.1869885691753,
+                "median": 32.9750518332352,
+                "std": 16.101332147779313
+              }
+            },
+            {
+              "name": "16",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 98.9491591496009,
+                "mean": 38.24319327789269,
+                "median": 36.8582788408986,
+                "std": 21.141540464659684
+              }
+            },
+            {
+              "name": "17",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 127.102647151433,
+                "mean": 57.968359380040205,
+                "median": 53.4460426870196,
+                "std": 26.97434489390084
+              }
+            },
+            {
+              "name": "18",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 88.3113931768439,
+                "mean": 40.286675140202284,
+                "median": 41.6228886664539,
+                "std": 17.874946398288685
+              }
+            },
+            {
+              "name": "19",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 125.257286246269,
+                "mean": 53.11867393770667,
+                "median": 46.4192310848841,
+                "std": 25.028348340139598
+              }
+            },
+            {
+              "name": "20",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 94.7172988522412,
+                "mean": 40.35960108444909,
+                "median": 37.3524922445002,
+                "std": 22.736102307674464
+              }
+            },
+            {
+              "name": "21",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 128.374475444781,
+                "mean": 64.05220716131699,
+                "median": 63.4712294356943,
+                "std": 28.98106641096177
+              }
+            },
+            {
+              "name": "22",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 88.4868743106961,
+                "mean": 36.423117985163024,
+                "median": 32.9123816831658,
+                "std": 19.65164915462661
+              }
+            },
+            {
+              "name": "23",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 113.00365744828,
+                "mean": 43.769704233175425,
+                "median": 40.1148059736102,
+                "std": 23.77517431717689
+              }
+            },
+            {
+              "name": "24",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 140.851268499053,
+                "mean": 56.42893782435654,
+                "median": 54.0212891807127,
+                "std": 27.338699791620993
+              }
+            },
+            {
+              "name": "25",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 80.2439296051333,
+                "mean": 39.13784077259051,
+                "median": 36.8924383662474,
+                "std": 18.296284199645577
+              }
+            },
+            {
+              "name": "26",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 106.438848304682,
+                "mean": 43.7920970648304,
+                "median": 39.6550497036577,
+                "std": 25.08853881737603
+              }
+            },
+            {
+              "name": "27",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 104.058688438018,
+                "mean": 43.30471037643903,
+                "median": 36.2605133688981,
+                "std": 25.335314910466494
+              }
+            },
+            {
+              "name": "28",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 131.793672372732,
+                "mean": 50.82030916109473,
+                "median": 47.4589486393185,
+                "std": 28.443423975082737
+              }
+            },
+            {
+              "name": "29",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 125.224715075683,
+                "mean": 60.17484860913341,
+                "median": 60.0643473275955,
+                "std": 28.301307953746907
+              }
+            },
+            {
+              "name": "30",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 103.073457466037,
+                "mean": 45.17465576201326,
+                "median": 42.9200682641201,
+                "std": 22.508166008722355
+              }
+            },
+            {
+              "name": "31",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 87.6050459651594,
+                "mean": 35.32867016515274,
+                "median": 34.2569483173943,
+                "std": 19.408552083916504
+              }
+            },
+            {
+              "name": "32",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 115.959555315765,
+                "mean": 52.2476449463515,
+                "median": 49.9616883521311,
+                "std": 25.948588301269925
+              }
+            },
+            {
+              "name": "33",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 74.3382928359422,
+                "mean": 35.70805860311388,
+                "median": 33.2560409698151,
+                "std": 17.608979657813272
+              }
+            },
+            {
+              "name": "34",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 96.4232808434936,
+                "mean": 39.404929487158036,
+                "median": 36.9268641145905,
+                "std": 22.30661359921888
+              }
+            },
+            {
+              "name": "35",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 110.379010962949,
+                "mean": 49.20704573369076,
+                "median": 45.5652653523049,
+                "std": 27.256759019846086
+              }
+            },
+            {
+              "name": "36",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 138.630318104906,
+                "mean": 58.999495482068305,
+                "median": 60.2228606650945,
+                "std": 29.450294454252973
+              }
+            },
+            {
+              "name": "37",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 134.366291284855,
+                "mean": 59.34258703654395,
+                "median": 59.2584437073716,
+                "std": 26.984357989705206
+              }
+            },
+            {
+              "name": "38",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 121.22868012119,
+                "mean": 46.03458295108264,
+                "median": 41.2284826984158,
+                "std": 24.076569633049612
+              }
+            },
+            {
+              "name": "39",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 125.748802941851,
+                "mean": 51.44960616024249,
+                "median": 47.9217769584513,
+                "std": 27.290211469825508
+              }
+            },
+            {
+              "name": "40",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 116.455659030345,
+                "mean": 49.41005433415513,
+                "median": 47.126522292873,
+                "std": 23.56836928984828
+              }
+            },
+            {
+              "name": "41",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 131.793672372732,
+                "mean": 65.24278365980722,
+                "median": 62.4241680536094,
+                "std": 28.06946662429136
+              }
+            },
+            {
+              "name": "42",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 82.0769940737001,
+                "mean": 37.91886218823406,
+                "median": 36.3397213058569,
+                "std": 19.750166802698406
+              }
+            },
+            {
+              "name": "43",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 111.617492577333,
+                "mean": 43.366491387072465,
+                "median": 40.2405212738058,
+                "std": 24.96383759608001
+              }
+            },
+            {
+              "name": "44",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 96.3546908447287,
+                "mean": 44.876714799681494,
+                "median": 45.2789887284072,
+                "std": 22.71073053361115
+              }
+            },
+            {
+              "name": "45",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 114.828883004703,
+                "mean": 45.45708588176687,
+                "median": 42.355832844688,
+                "std": 26.857455395587177
+              }
+            },
+            {
+              "name": "46",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 116.888672819417,
+                "mean": 52.23987113511531,
+                "median": 52.2611597984309,
+                "std": 28.391125548779236
+              }
+            },
+            {
+              "name": "47",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 122.848970175883,
+                "mean": 46.426767146572836,
+                "median": 44.360408509296,
+                "std": 21.534338445501277
+              }
+            },
+            {
+              "name": "48",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 93.2372150955215,
+                "mean": 40.401461514010364,
+                "median": 40.8370252369563,
+                "std": 19.762394511938474
+              }
+            },
+            {
+              "name": "49",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 136.866119031201,
+                "mean": 61.611760915597785,
+                "median": 57.0686729728295,
+                "std": 27.865954113351236
+              }
+            },
+            {
+              "name": "50",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 99.4722295604684,
+                "mean": 42.999629589645096,
+                "median": 39.1241133464389,
+                "std": 21.640657838687822
+              }
+            },
+            {
+              "name": "51",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 111.034138724397,
+                "mean": 44.10134886704553,
+                "median": 40.2405212738058,
+                "std": 22.08569042888426
+              }
+            },
+            {
+              "name": "52",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 89.0877729079642,
+                "mean": 38.942502055024704,
+                "median": 35.9329172736943,
+                "std": 20.149427620912302
+              }
+            },
+            {
+              "name": "53",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 90.8495965191921,
+                "mean": 39.56601091588814,
+                "median": 36.1056311805892,
+                "std": 19.49098995579378
+              }
+            },
+            {
+              "name": "54",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 115.10869936915,
+                "mean": 46.19138275805317,
+                "median": 43.2036347091589,
+                "std": 25.75226834277394
+              }
+            },
+            {
+              "name": "55",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 104.145047512176,
+                "mean": 52.410922946447684,
+                "median": 53.1030647849188,
+                "std": 23.559552047166175
+              }
+            },
+            {
+              "name": "56",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 146.055053916486,
+                "mean": 63.348872964708974,
+                "median": 58.2552084442293,
+                "std": 32.28233298812461
+              }
+            },
+            {
+              "name": "57",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 116.888672819417,
+                "mean": 60.33591242111262,
+                "median": 58.6140705715446,
+                "std": 23.858523033508536
+              }
+            },
+            {
+              "name": "58",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 115.182966402167,
+                "mean": 50.587932814438574,
+                "median": 52.2501914247328,
+                "std": 24.871766448351877
+              }
+            },
+            {
+              "name": "59",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 116.009169708937,
+                "mean": 53.91006217792102,
+                "median": 54.3887985768558,
+                "std": 23.415000788241436
+              }
+            },
+            {
+              "name": "60",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 135.066573890603,
+                "mean": 60.10820332054786,
+                "median": 59.4663666970556,
+                "std": 26.047792115013173
+              }
+            },
+            {
+              "name": "61",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 123.802753390811,
+                "mean": 49.40358372691059,
+                "median": 48.2559777014177,
+                "std": 26.256658471857484
+              }
+            },
+            {
+              "name": "62",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 90.9773764324193,
+                "mean": 38.39515171935641,
+                "median": 39.265601855605,
+                "std": 17.96623442147328
+              }
+            },
+            {
+              "name": "63",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 122.897434497107,
+                "mean": 56.21451317556317,
+                "median": 57.7513587187707,
+                "std": 25.167440033817133
+              }
+            },
+            {
+              "name": "64",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 119.89038003618,
+                "mean": 54.037909102429005,
+                "median": 52.9159033051359,
+                "std": 25.8815168391672
+              }
+            },
+            {
+              "name": "65",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 148.967615142671,
+                "mean": 67.15178207683834,
+                "median": 66.279363371763,
+                "std": 30.95176957429148
+              }
+            },
+            {
+              "name": "66",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 109.655911558078,
+                "mean": 38.01196802049836,
+                "median": 33.4618132964213,
+                "std": 23.191102500187586
+              }
+            },
+            {
+              "name": "67",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 127.906903276776,
+                "mean": 48.31702436983669,
+                "median": 44.4735229595638,
+                "std": 27.022030481411075
+              }
+            },
+            {
+              "name": "68",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 146.055053916486,
+                "mean": 65.47544275436462,
+                "median": 68.9213341795083,
+                "std": 28.08959355716109
+              }
+            },
+            {
+              "name": "69",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 115.093875144403,
+                "mean": 58.885269943291576,
+                "median": 58.7624780806917,
+                "std": 28.447076334338274
+              }
+            },
+            {
+              "name": "70",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 135.066573890603,
+                "mean": 53.05957786249426,
+                "median": 52.9130489098073,
+                "std": 27.597452129187293
+              }
+            },
+            {
+              "name": "71",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 88.8944214854007,
+                "mean": 44.92662155623874,
+                "median": 44.1981124660573,
+                "std": 21.614561567181145
+              }
+            },
+            {
+              "name": "72",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 118.741618604514,
+                "mean": 58.12561721417201,
+                "median": 55.4485687581342,
+                "std": 26.783564480390705
+              }
+            },
+            {
+              "name": "73",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 95.4295244025102,
+                "mean": 44.21883395285937,
+                "median": 42.5755359063655,
+                "std": 22.193554347559413
+              }
+            },
+            {
+              "name": "74",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 98.2227366252752,
+                "mean": 40.33459528322808,
+                "median": 38.3518066274826,
+                "std": 20.682676701607488
+              }
+            },
+            {
+              "name": "75",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 148.967615142671,
+                "mean": 56.09655054940191,
+                "median": 54.6392040337913,
+                "std": 28.745958864388076
+              }
+            },
+            {
+              "name": "76",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 95.7698025602504,
+                "mean": 35.59280084739305,
+                "median": 35.664058303064,
+                "std": 19.405050596534352
+              }
+            },
+            {
+              "name": "77",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 123.547269849111,
+                "mean": 50.331627320924206,
+                "median": 46.877343471954,
+                "std": 28.584261310425084
+              }
+            },
+            {
+              "name": "78",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 81.4895211062027,
+                "mean": 35.72879448861761,
+                "median": 33.0460063694554,
+                "std": 19.251276546898236
+              }
+            },
+            {
+              "name": "79",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 102.817996735612,
+                "mean": 37.45548785989205,
+                "median": 31.6778410702083,
+                "std": 20.960691952749336
+              }
+            },
+            {
+              "name": "80",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 115.596763821205,
+                "mean": 50.36014845330042,
+                "median": 47.9835286851398,
+                "std": 24.427287087947615
+              }
+            },
+            {
+              "name": "81",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 111.075046805335,
+                "mean": 38.08097617330995,
+                "median": 35.584785343755,
+                "std": 22.039302179305245
+              }
+            },
+            {
+              "name": "82",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 104.445415891797,
+                "mean": 42.21867971675173,
+                "median": 40.6738916510618,
+                "std": 24.08501435962524
+              }
+            },
+            {
+              "name": "83",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 125.748802941851,
+                "mean": 56.96946242616312,
+                "median": 56.7384254330006,
+                "std": 23.876806511990853
+              }
+            },
+            {
+              "name": "84",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 112.827870927116,
+                "mean": 54.785072125490714,
+                "median": 53.1104409571335,
+                "std": 24.85752411727521
+              }
+            },
+            {
+              "name": "85",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 87.3633971816468,
+                "mean": 34.09791450319987,
+                "median": 31.7753846673121,
+                "std": 19.272337796080425
+              }
+            },
+            {
+              "name": "86",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 107.728280338189,
+                "mean": 48.007326117827084,
+                "median": 45.3117789553601,
+                "std": 22.65652280021263
+              }
+            },
+            {
+              "name": "87",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 122.634967733552,
+                "mean": 52.01464755288555,
+                "median": 48.715548408806,
+                "std": 28.672507436857522
+              }
+            },
+            {
+              "name": "88",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 110.456531437668,
+                "mean": 52.27331099394294,
+                "median": 49.6660855663596,
+                "std": 23.03785193351179
+              }
+            },
+            {
+              "name": "89",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 94.2380815982203,
+                "mean": 47.494673543188235,
+                "median": 47.3767472218431,
+                "std": 20.736624098826567
+              }
+            },
+            {
+              "name": "90",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 129.246125078191,
+                "mean": 59.072271920437075,
+                "median": 58.208036372155,
+                "std": 26.184110818926584
+              }
+            },
+            {
+              "name": "91",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 100.463822711287,
+                "mean": 44.857603806323844,
+                "median": 43.834148039097,
+                "std": 23.873786724183184
+              }
+            },
+            {
+              "name": "92",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 108.293966548525,
+                "mean": 45.95326480551529,
+                "median": 43.2214374208059,
+                "std": 20.452621237625703
+              }
+            },
+            {
+              "name": "93",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 103.047755330705,
+                "mean": 44.24276351219378,
+                "median": 41.8335586672798,
+                "std": 24.882448448916215
+              }
+            },
+            {
+              "name": "94",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 129.246125078191,
+                "mean": 54.97450835229128,
+                "median": 47.7585052583844,
+                "std": 29.430778264854357
+              }
+            },
+            {
+              "name": "95",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 105.26939428738,
+                "mean": 44.8766246319477,
+                "median": 40.4353267289759,
+                "std": 25.85173083289819
+              }
+            },
+            {
+              "name": "96",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 99.4824110067627,
+                "mean": 41.98058776635642,
+                "median": 42.5276082395547,
+                "std": 19.607887787307398
+              }
+            },
+            {
+              "name": "97",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 101.958955904302,
+                "mean": 36.8633551092458,
+                "median": 33.7949174546435,
+                "std": 21.672358213432382
+              }
+            },
+            {
+              "name": "98",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0.0,
+                "max": 136.866119031201,
+                "mean": 58.90227746369818,
+                "median": 57.6103914752821,
+                "std": 29.77506671995876
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/green_logistics_A/客户坐标信息.xlsx",
+      "bytes": 13875,
+      "sha256": "570d846d2cc85f6d45df21161a1df015cd5320cb22ac2885fc42931dd24d7db7",
+      "tables": [
+        {
+          "name": "Sheet1",
+          "rows": 99,
+          "columns_count": 4,
+          "duplicate_rows": 0,
+          "columns": [
+            {
+              "name": "类型",
+              "dtype": "str",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 2,
+              "examples": [
+                "配送中心",
+                "客户"
+              ]
+            },
+            {
+              "name": "ID",
+              "dtype": "int64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": 0,
+                "max": 98,
+                "mean": 49.0,
+                "median": 49.0,
+                "std": 28.722813232690143
+              }
+            },
+            {
+              "name": "X (km)",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": -33.6060651581938,
+                "max": 35.9798551608321,
+                "mean": -0.12917191016146196,
+                "median": -0.943660216384455,
+                "std": 16.432805148172108
+              }
+            },
+            {
+              "name": "Y (km)",
+              "dtype": "float64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 99,
+              "numeric": {
+                "min": -37.5736956858047,
+                "max": 38.866308384005,
+                "mean": -4.460918786593724,
+                "median": -6.33777906329211,
+                "std": 19.429868598564152
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/green_logistics_A/时间窗.xlsx",
+      "bytes": 12044,
+      "sha256": "5f20976494bf618847251dec221042c8d984b5844614ad71c2a62546da3f53c9",
+      "tables": [
+        {
+          "name": "Sheet1",
+          "rows": 98,
+          "columns_count": 3,
+          "duplicate_rows": 0,
+          "columns": [
+            {
+              "name": "客户编号",
+              "dtype": "int64",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 98,
+              "numeric": {
+                "min": 1,
+                "max": 98,
+                "mean": 49.5,
+                "median": 49.5,
+                "std": 28.434134416225863
+              }
+            },
+            {
+              "name": "开始时间",
+              "dtype": "str",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 91,
+              "examples": [
+                "11:33",
+                "17:53",
+                "14:33"
+              ]
+            },
+            {
+              "name": "结束时间",
+              "dtype": "str",
+              "missing_count": 0,
+              "missing_pct": 0.0,
+              "unique_count": 93,
+              "examples": [
+                "12:22",
+                "18:49",
+                "15:21"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "data/green_logistics_A/订单信息.xlsx::Sheet1.订单编号: likely identifier; do not use as a numeric feature without justification",
+    "data/green_logistics_A/客户坐标信息.xlsx::Sheet1.ID: likely identifier; do not use as a numeric feature without justification",
+    "data/green_logistics_A/时间窗.xlsx::Sheet1.客户编号: likely identifier; do not use as a numeric feature without justification"
+  ]
+}

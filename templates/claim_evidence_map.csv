@@ -1,0 +1,5 @@
+claim_id,paper_section,claim_or_number,evidence_file,evidence_field_or_figure,generator_script,owner,verified
+C01,摘要,,,,,,no
+C02,问题1结果,,,,,,no
+C03,问题2结果,,,,,,no
+C04,结论,,,,,,no

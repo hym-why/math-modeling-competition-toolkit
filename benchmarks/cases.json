@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "scope": "CUMCM undergraduate C problems, 2021-2025",
+  "cases": [
+    {
+      "id": "2021C",
+      "year": 2021,
+      "problem_pdf": "benchmarks/raw/official/2021/C/CUMCM2021-C.pdf",
+      "data_files": [
+        "benchmarks/raw/official/2021/C/附件1 近5年402家供应商的相关数据.xlsx",
+        "benchmarks/raw/official/2021/C/附件2 近5年8家转运商的相关数据.xlsx"
+      ],
+      "output_templates": [
+        "benchmarks/raw/official/2021/C/附件A 订购方案数据结果.xlsx",
+        "benchmarks/raw/official/2021/C/附件B 转运方案数据结果.xlsx"
+      ]
+    },
+    {
+      "id": "2022C",
+      "year": 2022,
+      "problem_pdf": "benchmarks/raw/official/2022/C_problem/C题.pdf",
+      "data_files": [
+        "benchmarks/raw/official/2022/C_problem/附件.xlsx"
+      ],
+      "output_templates": []
+    },
+    {
+      "id": "2023C",
+      "year": 2023,
+      "problem_pdf": "benchmarks/raw/official/2023/C_problem/C题.pdf",
+      "data_files": [
+        "benchmarks/raw/official/2023/C_problem/附件1.xlsx",
+        "benchmarks/raw/official/2023/C_problem/附件2.xlsx",
+        "benchmarks/raw/official/2023/C_problem/附件3.xlsx",
+        "benchmarks/raw/official/2023/C_problem/附件4.xlsx"
+      ],
+      "output_templates": []
+    },
+    {
+      "id": "2024C",
+      "year": 2024,
+      "problem_pdf": "benchmarks/raw/official/2024/CUMCM2024Problems/C题/C题.pdf",
+      "data_files": [
+        "benchmarks/raw/official/2024/CUMCM2024Problems/C题/附件1.xlsx",
+        "benchmarks/raw/official/2024/CUMCM2024Problems/C题/附件2.xlsx"
+      ],
+      "output_templates": [
+        "benchmarks/raw/official/2024/CUMCM2024Problems/C题/附件3/result1_1.xlsx",
+        "benchmarks/raw/official/2024/CUMCM2024Problems/C题/附件3/result1_2.xlsx",
+        "benchmarks/raw/official/2024/CUMCM2024Problems/C题/附件3/result2.xlsx"
+      ]
+    },
+    {
+      "id": "2025C",
+      "year": 2025,
+      "problem_pdf": "benchmarks/raw/official/2025/C题/C题.pdf",
+      "data_files": [
+        "benchmarks/raw/official/2025/C题/附件.xlsx"
+      ],
+      "output_templates": []
+    }
+  ]
+}
