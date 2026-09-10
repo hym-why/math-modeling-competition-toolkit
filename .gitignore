@@ -15,3 +15,15 @@ benchmarks/raw/
 benchmarks/runs/
 tmp/
 matplotlib/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+CUMCM-LaTeX-Template-main/template.pdf
