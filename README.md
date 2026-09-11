@@ -13,6 +13,13 @@
 7. 按 `docs/05_quality_gates.md` 通过 G1-G6，并执行最终机器审计。
 8. 提交前逐项过 `docs/03_submission_checklist.md`，并把 AI 使用记录整理到 `templates/ai_usage_record.md`。
 
+## C题数据预处理专题
+
+本仓库已整理 C 题的完整数据预处理方案、与 26c 论文方法的对比、论文可直接使用的文字，以及配套可视化图表：
+
+- [C题数据预处理方案](docs/C题数据预处理方案.md)
+- [C题数据预处理图总览](output/C题_数据预处理图/C题_数据预处理图总览.png)
+
 ## 本机运行命令
 
 如果已经安装并配置 Python：
